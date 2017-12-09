@@ -8,7 +8,6 @@ class SwiftColorGenLibraryTests: XCTestCase {
         // results.
     }
 
-
     static var allTests = [
         ("testExample", testExample),
     ]
