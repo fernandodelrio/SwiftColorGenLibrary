@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"SwiftColorGenLibrary::SwiftColorGenLibraryPackageTests::ProductTarget" /* SwiftColorGenLibraryPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_115 /* Build configuration list for PBXAggregateTarget "SwiftColorGenLibraryPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_118 /* PBXTargetDependency */,
+			);
+			name = SwiftColorGenLibraryPackageTests;
+			productName = SwiftColorGenLibraryPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_100 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CommandLine.swift */; };
+		OBJ_101 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Option.swift */; };
+		OBJ_102 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* StringExtensions.swift */; };
+		OBJ_108 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Document.swift */; };
+		OBJ_109 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Element.swift */; };
+		OBJ_110 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Error.swift */; };
+		OBJ_111 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Options.swift */; };
+		OBJ_112 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Parser.swift */; };
+		OBJ_47 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_53 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Package.swift */; };
+		OBJ_59 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Package.swift */; };
+		OBJ_65 /* SwiftColorGenLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* SwiftColorGenLibraryTests.swift */; };
+		OBJ_67 /* SwiftColorGenLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftColorGenLibrary::SwiftColorGenLibrary::Product" /* SwiftColorGenLibrary.framework */; };
+		OBJ_68 /* CommandLine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CommandLine::CommandLine::Product" /* CommandLine.framework */; };
+		OBJ_69 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AEXML::AEXML::Product" /* AEXML.framework */; };
+		OBJ_80 /* AEXMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AEXMLElement.swift */; };
+		OBJ_81 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Asset.swift */; };
+		OBJ_82 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* AssetManager.swift */; };
+		OBJ_83 /* CLIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CLIManager.swift */; };
+		OBJ_84 /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ColorData.swift */; };
+		OBJ_85 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ColorManager.swift */; };
+		OBJ_86 /* ColorSpaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* ColorSpaceManager.swift */; };
+		OBJ_87 /* OutputFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* OutputFileManager.swift */; };
+		OBJ_88 /* PathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* PathManager.swift */; };
+		OBJ_89 /* StoryboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* StoryboardManager.swift */; };
+		OBJ_90 /* WebColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* WebColors.swift */; };
+		OBJ_92 /* CommandLine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CommandLine::CommandLine::Product" /* CommandLine.framework */; };
+		OBJ_93 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AEXML::AEXML::Product" /* AEXML.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D86DBF621FDC46480037BB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CommandLine::CommandLine";
+			remoteInfo = CommandLine;
+		};
+		D86DBF631FDC46480037BB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "AEXML::AEXML";
+			remoteInfo = AEXML;
+		};
+		D86DBF641FDC46480037BB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftColorGenLibrary::SwiftColorGenLibrary";
+			remoteInfo = SwiftColorGenLibrary;
+		};
+		D86DBF651FDC46480037BB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CommandLine::CommandLine";
+			remoteInfo = CommandLine;
+		};
+		D86DBF661FDC46480037BB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "AEXML::AEXML";
+			remoteInfo = AEXML;
+		};
+		D86DBF671FDC46490037BB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftColorGenLibrary::SwiftColorGenLibraryTests";
+			remoteInfo = SwiftColorGenLibraryTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"AEXML::AEXML::Product" /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CommandLine::CommandLine::Product" /* CommandLine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommandLine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		OBJ_11 /* AssetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetManager.swift; sourceTree = "<group>"; };
+		OBJ_12 /* CLIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLIManager.swift; sourceTree = "<group>"; };
+		OBJ_13 /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
+		OBJ_14 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		OBJ_15 /* ColorSpaceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSpaceManager.swift; sourceTree = "<group>"; };
+		OBJ_16 /* OutputFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputFileManager.swift; sourceTree = "<group>"; };
+		OBJ_17 /* PathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathManager.swift; sourceTree = "<group>"; };
+		OBJ_18 /* StoryboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardManager.swift; sourceTree = "<group>"; };
+		OBJ_19 /* WebColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebColors.swift; sourceTree = "<group>"; };
+		OBJ_22 /* SwiftColorGenLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftColorGenLibraryTests.swift; sourceTree = "<group>"; };
+		OBJ_26 /* CommandLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
+		OBJ_27 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		OBJ_28 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/fbonfim/Documents/pkgtest4/SwiftColorGenLibrary/.build/checkouts/CommandLine-2827937867013820466/Package.swift"; sourceTree = "<group>"; };
+		OBJ_31 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/fbonfim/Documents/pkgtest4/SwiftColorGenLibrary/.build/checkouts/AEXML.git--1992474868199569405/Package.swift"; sourceTree = "<group>"; };
+		OBJ_32 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		OBJ_34 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_35 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		OBJ_36 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* AEXMLElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEXMLElement.swift; sourceTree = "<group>"; };
+		"SwiftColorGenLibrary::SwiftColorGenLibrary::Product" /* SwiftColorGenLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftColorGenLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftColorGenLibrary::SwiftColorGenLibraryTests::Product" /* SwiftColorGenLibraryTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftColorGenLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_67 /* SwiftColorGenLibrary.framework in Frameworks */,
+				OBJ_68 /* CommandLine.framework in Frameworks */,
+				OBJ_69 /* AEXML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_92 /* CommandLine.framework in Frameworks */,
+				OBJ_93 /* AEXML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D86DBF691FDC46710037BB9C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* AEXMLElement.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D86DBF6A1FDC467A0037BB9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* Asset.swift */,
+				OBJ_13 /* ColorData.swift */,
+				OBJ_19 /* WebColors.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D86DBF6B1FDC46890037BB9C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* AssetManager.swift */,
+				OBJ_12 /* CLIManager.swift */,
+				OBJ_14 /* ColorManager.swift */,
+				OBJ_15 /* ColorSpaceManager.swift */,
+				OBJ_16 /* OutputFileManager.swift */,
+				OBJ_17 /* PathManager.swift */,
+				OBJ_18 /* StoryboardManager.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		OBJ_20 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* SwiftColorGenLibraryTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_21 /* SwiftColorGenLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_22 /* SwiftColorGenLibraryTests.swift */,
+			);
+			name = SwiftColorGenLibraryTests;
+			path = Tests/SwiftColorGenLibraryTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_23 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* CommandLine 4.0.0 */,
+				OBJ_30 /* AEXML 4.2.2 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_24 /* CommandLine 4.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* CommandLine */,
+				OBJ_29 /* Package.swift */,
+			);
+			name = "CommandLine 4.0.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_25 /* CommandLine */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* CommandLine.swift */,
+				OBJ_27 /* Option.swift */,
+				OBJ_28 /* StringExtensions.swift */,
+			);
+			name = CommandLine;
+			path = ".build/checkouts/CommandLine-2827937867013820466/Sources/CommandLine";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_30 /* AEXML 4.2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_31 /* Package.swift */,
+				OBJ_32 /* Document.swift */,
+				OBJ_33 /* Element.swift */,
+				OBJ_34 /* Error.swift */,
+				OBJ_35 /* Options.swift */,
+				OBJ_36 /* Parser.swift */,
+			);
+			name = "AEXML 4.2.2";
+			path = ".build/checkouts/AEXML.git--1992474868199569405/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SwiftColorGenLibrary::SwiftColorGenLibraryTests::Product" /* SwiftColorGenLibraryTests.xctest */,
+				"SwiftColorGenLibrary::SwiftColorGenLibrary::Product" /* SwiftColorGenLibrary.framework */,
+				"CommandLine::CommandLine::Product" /* CommandLine.framework */,
+				"AEXML::AEXML::Product" /* AEXML.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_20 /* Tests */,
+				OBJ_23 /* Dependencies */,
+				OBJ_37 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SwiftColorGenLibrary */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SwiftColorGenLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				D86DBF691FDC46710037BB9C /* Extensions */,
+				D86DBF6A1FDC467A0037BB9C /* Models */,
+				D86DBF6B1FDC46890037BB9C /* Utils */,
+			);
+			name = SwiftColorGenLibrary;
+			path = Sources/SwiftColorGenLibrary;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"AEXML::AEXML" /* AEXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_104 /* Build configuration list for PBXNativeTarget "AEXML" */;
+			buildPhases = (
+				OBJ_107 /* Sources */,
+				OBJ_113 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AEXML;
+			productName = AEXML;
+			productReference = "AEXML::AEXML::Product" /* AEXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"AEXML::SwiftPMPackageDescription" /* AEXMLPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_55 /* Build configuration list for PBXNativeTarget "AEXMLPackageDescription" */;
+			buildPhases = (
+				OBJ_58 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AEXMLPackageDescription;
+			productName = AEXMLPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"CommandLine::CommandLine" /* CommandLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_96 /* Build configuration list for PBXNativeTarget "CommandLine" */;
+			buildPhases = (
+				OBJ_99 /* Sources */,
+				OBJ_103 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandLine;
+			productName = CommandLine;
+			productReference = "CommandLine::CommandLine::Product" /* CommandLine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CommandLine::SwiftPMPackageDescription" /* CommandLinePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_49 /* Build configuration list for PBXNativeTarget "CommandLinePackageDescription" */;
+			buildPhases = (
+				OBJ_52 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandLinePackageDescription;
+			productName = CommandLinePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftColorGenLibrary::SwiftColorGenLibrary" /* SwiftColorGenLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_76 /* Build configuration list for PBXNativeTarget "SwiftColorGenLibrary" */;
+			buildPhases = (
+				OBJ_79 /* Sources */,
+				OBJ_91 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_94 /* PBXTargetDependency */,
+				OBJ_95 /* PBXTargetDependency */,
+			);
+			name = SwiftColorGenLibrary;
+			productName = SwiftColorGenLibrary;
+			productReference = "SwiftColorGenLibrary::SwiftColorGenLibrary::Product" /* SwiftColorGenLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftColorGenLibrary::SwiftColorGenLibraryTests" /* SwiftColorGenLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_61 /* Build configuration list for PBXNativeTarget "SwiftColorGenLibraryTests" */;
+			buildPhases = (
+				OBJ_64 /* Sources */,
+				OBJ_66 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_70 /* PBXTargetDependency */,
+				OBJ_72 /* PBXTargetDependency */,
+				OBJ_74 /* PBXTargetDependency */,
+			);
+			name = SwiftColorGenLibraryTests;
+			productName = SwiftColorGenLibraryTests;
+			productReference = "SwiftColorGenLibrary::SwiftColorGenLibraryTests::Product" /* SwiftColorGenLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"SwiftColorGenLibrary::SwiftPMPackageDescription" /* SwiftColorGenLibraryPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_43 /* Build configuration list for PBXNativeTarget "SwiftColorGenLibraryPackageDescription" */;
+			buildPhases = (
+				OBJ_46 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftColorGenLibraryPackageDescription;
+			productName = SwiftColorGenLibraryPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftColorGenLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"SwiftColorGenLibrary::SwiftPMPackageDescription" /* SwiftColorGenLibraryPackageDescription */,
+				"CommandLine::SwiftPMPackageDescription" /* CommandLinePackageDescription */,
+				"AEXML::SwiftPMPackageDescription" /* AEXMLPackageDescription */,
+				"SwiftColorGenLibrary::SwiftColorGenLibraryTests" /* SwiftColorGenLibraryTests */,
+				"SwiftColorGenLibrary::SwiftColorGenLibrary" /* SwiftColorGenLibrary */,
+				"CommandLine::CommandLine" /* CommandLine */,
+				"AEXML::AEXML" /* AEXML */,
+				"SwiftColorGenLibrary::SwiftColorGenLibraryPackageTests::ProductTarget" /* SwiftColorGenLibraryPackageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_108 /* Document.swift in Sources */,
+				OBJ_109 /* Element.swift in Sources */,
+				OBJ_110 /* Error.swift in Sources */,
+				OBJ_111 /* Options.swift in Sources */,
+				OBJ_112 /* Parser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_47 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_53 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_59 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_65 /* SwiftColorGenLibraryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_80 /* AEXMLElement.swift in Sources */,
+				OBJ_81 /* Asset.swift in Sources */,
+				OBJ_82 /* AssetManager.swift in Sources */,
+				OBJ_83 /* CLIManager.swift in Sources */,
+				OBJ_84 /* ColorData.swift in Sources */,
+				OBJ_85 /* ColorManager.swift in Sources */,
+				OBJ_86 /* ColorSpaceManager.swift in Sources */,
+				OBJ_87 /* OutputFileManager.swift in Sources */,
+				OBJ_88 /* PathManager.swift in Sources */,
+				OBJ_89 /* StoryboardManager.swift in Sources */,
+				OBJ_90 /* WebColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_100 /* CommandLine.swift in Sources */,
+				OBJ_101 /* Option.swift in Sources */,
+				OBJ_102 /* StringExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftColorGenLibrary::SwiftColorGenLibraryTests" /* SwiftColorGenLibraryTests */;
+			targetProxy = D86DBF671FDC46490037BB9C /* PBXContainerItemProxy */;
+		};
+		OBJ_70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftColorGenLibrary::SwiftColorGenLibrary" /* SwiftColorGenLibrary */;
+			targetProxy = D86DBF641FDC46480037BB9C /* PBXContainerItemProxy */;
+		};
+		OBJ_72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CommandLine::CommandLine" /* CommandLine */;
+			targetProxy = D86DBF651FDC46480037BB9C /* PBXContainerItemProxy */;
+		};
+		OBJ_74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "AEXML::AEXML" /* AEXML */;
+			targetProxy = D86DBF661FDC46480037BB9C /* PBXContainerItemProxy */;
+		};
+		OBJ_94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CommandLine::CommandLine" /* CommandLine */;
+			targetProxy = D86DBF621FDC46480037BB9C /* PBXContainerItemProxy */;
+		};
+		OBJ_95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "AEXML::AEXML" /* AEXML */;
+			targetProxy = D86DBF631FDC46480037BB9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftColorGenLibrary.xcodeproj/AEXML_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = AEXML;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = AEXML;
+			};
+			name = Debug;
+		};
+		OBJ_106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftColorGenLibrary.xcodeproj/AEXML_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = AEXML;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = AEXML;
+			};
+			name = Release;
+		};
+		OBJ_116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftColorGenLibrary.xcodeproj/SwiftColorGenLibraryTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftColorGenLibraryTests;
+			};
+			name = Debug;
+		};
+		OBJ_63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftColorGenLibrary.xcodeproj/SwiftColorGenLibraryTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftColorGenLibraryTests;
+			};
+			name = Release;
+		};
+		OBJ_77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftColorGenLibrary.xcodeproj/SwiftColorGenLibrary_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftColorGenLibrary;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftColorGenLibrary;
+			};
+			name = Debug;
+		};
+		OBJ_78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftColorGenLibrary.xcodeproj/SwiftColorGenLibrary_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftColorGenLibrary;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftColorGenLibrary;
+			};
+			name = Release;
+		};
+		OBJ_97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftColorGenLibrary.xcodeproj/CommandLine_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CommandLine;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CommandLine;
+			};
+			name = Debug;
+		};
+		OBJ_98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftColorGenLibrary.xcodeproj/CommandLine_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CommandLine;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CommandLine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_104 /* Build configuration list for PBXNativeTarget "AEXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_105 /* Debug */,
+				OBJ_106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_115 /* Build configuration list for PBXAggregateTarget "SwiftColorGenLibraryPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_116 /* Debug */,
+				OBJ_117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "SwiftColorGenLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_43 /* Build configuration list for PBXNativeTarget "SwiftColorGenLibraryPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_44 /* Debug */,
+				OBJ_45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_49 /* Build configuration list for PBXNativeTarget "CommandLinePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_50 /* Debug */,
+				OBJ_51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_55 /* Build configuration list for PBXNativeTarget "AEXMLPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_56 /* Debug */,
+				OBJ_57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_61 /* Build configuration list for PBXNativeTarget "SwiftColorGenLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_62 /* Debug */,
+				OBJ_63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_76 /* Build configuration list for PBXNativeTarget "SwiftColorGenLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_77 /* Debug */,
+				OBJ_78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_96 /* Build configuration list for PBXNativeTarget "CommandLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_97 /* Debug */,
+				OBJ_98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
