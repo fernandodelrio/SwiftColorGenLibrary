@@ -32,7 +32,7 @@ public struct CLIManager {
         let help = BoolOption(shortFlag: "h",
                               longFlag: "help",
                               helpMessage: """
-                                            Usage: ./swiftcg [options]
+                                            Usage: swift run SwiftColorGen [options]
                                             -o --outputFile (required):
                                                 Path to the output Swift file
                                             -b --baseFolder (optional):
