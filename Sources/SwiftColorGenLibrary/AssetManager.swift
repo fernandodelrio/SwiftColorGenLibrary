@@ -93,32 +93,6 @@ open class AssetManager {
         }
     }
     
-    // Gets the correct color data (it can be 0.0 to 1.0, 0 to 255 or hex
-    private static func getColorDataFromAssets(components: [String: String]) -> ColorData {
-        let colorData = ColorData()
-        guard let red = components["red"],
-            let green = components["green"],
-            let blue = components["blue"],
-            let alpha = components["alpha"] else {
-                return colorData
-        }
-        if red.contains(".") { // 0.0 to 1.0
-            colorData.red = Double(red) ?? 0.0
-            colorData.green = Double(green) ?? 0.0
-            colorData.blue = Double(blue) ?? 0.0
-        } else if red.contains("x") { // 0x00 to 0xFF
-            colorData.red = Double(Int(red.suffix(2), radix: 16) ?? 0)/255
-            colorData.green = Double(Int(green.suffix(2), radix: 16) ?? 0)/255
-            colorData.blue = Double(Int(blue.suffix(2), radix: 16) ?? 0)/255
-        } else { // 0 to 255
-            colorData.red = (Double(red) ?? 0.0)/255
-            colorData.green = (Double(green) ?? 0.0)/255
-            colorData.blue = (Double(blue) ?? 0.0)/255
-        }
-        colorData.alpha = Double(alpha) ?? 0.0
-        return colorData
-    }
-    
     // Gets the asset color using the Content.json values
     private static func getAssetColor(colorsetFolder: String) -> ColorData {
         guard let data = try? Data(contentsOf: URL(fileURLWithPath: "\(colorsetFolder)/Contents.json")) else {
@@ -137,7 +111,10 @@ open class AssetManager {
         guard let components = color["components"] as? [String: String] else {
             return ColorData()
         }
-        let colorData = getColorDataFromAssets(components: components)
+        guard let colorSpace = color["color-space"] as? String else {
+            return ColorData()
+        }
+        let colorData = ColorSpaceManager.convertAssetToSRGB(components: components, colorSpace: colorSpace)
         return colorData
     }
     
