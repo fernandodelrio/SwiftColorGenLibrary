@@ -8,8 +8,8 @@
 import Foundation
 
 open class OutputFileManager {
-    // Write the UIColor extension output file
-    open static func writeOutputfile(path: String, colors: Set<ColorData>, assets: [Asset]) {
+    // Generates the contents of the output file
+    open static func generateOutputfile(colors: Set<ColorData>, assets: [Asset]) -> String {
         let generatorData = ColorManager.getColorsForGenerator(colors: colors)
         var output = "// Don't change. Auto generated file. SwiftColorGen\n"
         output += "import UIKit\n\n"
@@ -35,6 +35,12 @@ open class OutputFileManager {
         }
         output = String(output.prefix(output.count-1))
         output += "}\n"
+        return output
+    }
+    
+    // Write the UIColor extension output file
+    open static func writeOutputfile(path: String, colors: Set<ColorData>, assets: [Asset]) {
+        let output = generateOutputfile(colors: colors, assets: assets)
         try? output.write(to: URL(fileURLWithPath: path), atomically: false, encoding: .utf8)
     }
     
